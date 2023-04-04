@@ -1,0 +1,1291 @@
+:root {
+    --color-primary: #53b6e9;
+    --color-white: #fff;
+    --color-offwhite: #f5f5f5;
+    --color-black: #000;
+    --color-red: red;
+    --color-neutral-10: #cecfd5;
+    --color-neutral-20: #ededed;
+    --color-neutral-30: #9d9fab;
+    --color-neutral-40: #858797;
+    --color-neutral-50: #6c6e82;
+    --color-neutral-60: #54576d;
+    --color-neutral-90: #0a0e2e;
+    --color-green: #71bd43;
+    --color-green-light: #c7da3e;
+    --color-blue: #53b6e9;
+    --color-blue-dark: #243b7c;
+    --color-blue-light: #6dc3ef;
+    --color-yellow: #e52a0d;
+    --bg-gradient-green: linear-gradient(257.79deg, var(--color-green) 0%, var(--color-green-light) 100%);
+}
+
+body {
+    background-color: #f5f5f5;
+    padding: 0 !important;
+}
+
+.navbarO {
+    display: flex;
+    margin: auto;
+}
+
+.CentreAuto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbarO button {
+    background: var(--bg-gradient-green);
+    border-radius: 20px;
+    color: white;
+}
+
+.taining h2 {
+    font-size: 53px;
+    font-weight: 700;
+    line-height: 121%;
+    margin: 52px 20px 0 23px;
+    text-align: left;
+    width: 470px;
+}
+
+.taining p {
+    padding: 30px;
+    color: #54576d;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: left;
+    width: 470px;
+}
+
+.image_parent {
+    /* height: 1000px; */
+    /* position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.btnbox .demobtn {
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.btnbox a {
+    text-decoration: none;
+    color: #0a0e2e;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 140%;
+}
+
+.btnbox i {
+    color: #0a0e2e;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 140%;
+}
+
+.bg_image {
+    width: 483px;
+    height: 668px;
+    margin-left: 45px;
+    background-color: #0d2aaf;
+    border-radius: 1000px 1000px 48px 48px;
+    position: absolute;
+    z-index: -1;
+
+}
+
+.image {
+    position: relative;
+    top: -68px;
+    left: -76px
+}
+
+.image img {
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+
+.medalparent {
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    border-radius: 50px;
+    right: 50px;
+    top: 127px;
+    background-color: white;
+}
+
+.medalparent img {
+    height: 40px;
+    width: 40px;
+}
+
+.platformImg img {
+    position: relative;
+    top: -58px;
+    right: -20;
+}
+
+.starmain {
+    left: 62px;
+    bottom: -27px;
+    padding: 28px 32px;
+    background: white;
+    border-radius: 20px;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.starmain i {
+    color: rgb(253, 188, 2);
+    /* background-color: rgb(253, 188, 2); */
+}
+
+.weDo {
+    position: relative;
+    max-width: 1170px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 32px;
+}
+
+.downloadIcon {
+    font-size: 70px;
+    color: green;
+    position: absolute;
+    left: 45%;
+    top: -55px;
+
+}
+
+.wedoText {
+    position: relative;
+    flex-direction: column;
+    gap: 30px;
+    letter-spacing: .2px;
+}
+
+.wedoText h2 {
+    text-align: center;
+    padding: 79px;
+    margin: 20px 0;
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 48px;
+}
+
+.wedoText h6 {
+    font-size: 18px;
+    line-height: 1.4;
+    text-align: center;
+    color: #6c6e82;
+    ;
+}
+
+.sliderSection {
+    padding: 0px !important;
+    margin-top: 40px;
+    position: relative;
+    height: 800px;
+}
+
+.sliderText {
+    height: 200px;
+    width: 58%;
+
+
+
+}
+
+.cardParent {
+    padding: 50px 0px;
+    z-index: 5;
+}
+
+.textBox {
+    background-color: #002672;
+    position: absolute;
+    width: 58%;
+    height: 800px;
+
+}
+
+.sliderBox {
+    /* background-color: #243b7c; */
+    top: 0px;
+    right: 0px;
+    /* opacity: 0.5; */
+    position: absolute;
+
+}
+
+.textP {
+    width: 60%;
+    margin-left: 85px;
+    color: white;
+    margin-top: 50px;
+    padding: 35px;
+}
+
+.textP h2 {
+    font-size: 71px;
+    font-weight: 700;
+
+}
+
+.textP p {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+/* Our Features section started  */
+
+.FeatureMainSec {
+    /* margin-top: 40px; */
+    position: relative;
+    height: 1600px;
+}
+
+
+.featurechild {
+    background-color: #8f82c8;
+    position: absolute;
+    width: 58%;
+    height: 100%;
+}
+
+.fetureText {
+    width: 60%;
+    /* background-color: blue; */
+    margin-left: 85px;
+    color: white;
+    margin-top: 50px;
+    padding: 35px;
+}
+
+.featureImgMain {
+    position: absolute;
+    right: 0px;
+    padding: 98px 0;
+
+
+}
+
+.featurechild h3 {
+    color: white;
+    font-size: 71px;
+    font-weight: 700;
+    line-height: 110%;
+    font-weight: 400;
+
+}
+
+.featurechild p {
+    color: white;
+    font-size: 16px;
+    line-height: 160%;
+    margin-top: 35px;
+}
+
+.ImagesCardParent {
+    background-color: white;
+    margin: 10px;
+    width: 45%;
+    height: 360px;
+    /* background-color: red; */
+    /* width: 100%; */
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.ImagesCard {
+    width: 100%;
+    height: 300px;
+}
+
+.slideImage {
+    position: relative;
+    width: 250px;
+    height: 300px;
+}
+
+#imageSlide {
+    width: 100%;
+    /* position: absolute; */
+    content: "";
+    background-image: url("https://www.oneononelms.com/wp-content/uploads/2022/07/Rectangle-22-1657307124.png   ");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 25px;
+    height: 244px;
+
+}
+
+#imageSlide1 {
+    width: 100%;
+    content: "";
+    background-image: url("https://www.oneononelms.com/wp-content/uploads/2022/07/Rectangle-23-1657307124.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 25px;
+    height: 244px;
+}
+
+#imageSlide2 {
+    width: 100%;
+    content: "";
+    background-image: url("https://www.oneononelms.com/wp-content/uploads/2022/07/Rectangle-24-1657307125.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 25px;
+    height: 244px;
+}
+
+#imageSlide3 {
+    width: 100%;
+    content: "";
+    background-image: url("https://www.oneononelms.com/wp-content/uploads/2022/07/Rectangle-22-1-1657307126.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 25px;
+    height: 244px;
+}
+
+#imageSlide4 {
+    width: 100%;
+    content: "";
+    background-image: url("https://www.oneononelms.com/wp-content/uploads/2022/10/Online-training-certification-min-1666973275.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 25px;
+    height: 244px;
+}
+
+#imageSlide5 {
+    width: 100%;
+    content: "";
+    background-image: url("https://www.oneononelms.com/wp-content/uploads/2022/10/Four-people-smiling-min-1666973541.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 25px;
+    height: 244px;
+}
+
+/* Our Features section started  */
+
+
+/* Our Training Offerings section started  */
+
+.traingMain {
+    position: relative;
+    padding: 77px 0 80px;
+    overflow: hidden;
+}
+
+.kinghead {
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    border-radius: 50px;
+    right: 218px;
+    top: 180px;
+    background-color: white;
+
+}
+
+.trainingImg img {
+    position: relative;
+    top: 157px;
+    left: -51px;
+
+}
+
+.kinghead img {
+    width: 40px;
+    height: 40px;
+    margin-top: 12px;
+    margin-left: 0px;
+
+}
+
+.kingdown img {
+    position: relative;
+    bottom: -158px;
+    right: -20px;
+
+
+}
+
+.queenBackG {
+    width: 483px;
+    height: 715px;
+    margin-left: 45px;
+    background-color: #243b7c;
+    border-radius: 1000px 1000px 48px 48px;
+    position: absolute;
+    z-index: -1;
+}
+
+.queenImg {
+    position: relative;
+    top: -160px;
+    left: 105px;
+}
+
+
+.traingtext h3 {
+    font-size: 64px;
+    row-gap: 24px;
+    font-weight: 700;
+    color: #243b7c;
+}
+
+.traingsubheading h4 {
+    margin-bottom: 4px;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: .2px;
+}
+
+/* Our Training Offerings section Ended  */
+
+
+/* We also offer... section started  */
+
+.offerMain {
+    position: relative;
+    padding: 77px 0 80px;
+    overflow: hidden;
+}
+
+
+/* We also offer... section ended  */
+
+
+
+
+
+/* Trusted by... section started  */
+
+
+@import url("https://fonts.googleapis.com/css?family=Muli:400,700&display=swap");
+
+
+
+
+
+.container {
+    width: 100%;
+    position: relative;
+}
+
+.trusted {
+    padding: 157px 0 162px;
+    background-color: #243b7c;
+    overflow: hidden;
+
+}
+
+.trusredText {
+    text-align: center;
+}
+
+.trusredText h1 {
+    color: white;
+    font-size: 71px;
+    font-weight: 700;
+    line-height: 160%;
+}
+
+.trusredText p {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.items {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    animation: carouselAnim 20s infinite linear;
+}
+
+.entry {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    width: 400px;
+    background: #fff;
+    margin: 1em;
+    padding: 0.5em;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.entry img {
+    width: 270px;
+    height: 135px;
+    background: #fff;
+    border-radius: 12px;
+
+
+}
+
+@media only screen and (max-width: 768px) {
+    .items {
+        animation: carouselAnim 35s infinite alternate linear;
+    }
+
+    @keyframes carouselAnim {
+        from {
+            transform: translate(0, 0);
+        }
+
+        to {
+            transform: translate(calc(-100% + (2 * 300px)));
+        }
+    }
+}
+
+.entry p {
+    text-align: center;
+    padding: 1em;
+}
+
+.name {
+    font-weight: bold;
+}
+
+@keyframes carouselAnim {
+    from {
+        transform: translate(0, 0);
+    }
+
+    to {
+        transform: translate(calc(-100% + (5 * 300px)));
+    }
+}
+
+.container .faders {
+    /* width: 100%; */
+    position: absolute;
+    height: 100%;
+}
+
+.faders .right,
+.faders .left {
+    background: linear-gradient(to right,
+            rgba(245, 245, 245, 1) 0%,
+            rgba(255, 255, 255, 0) 100%);
+    height: 100%;
+    position: absolute;
+    z-index: 200;
+}
+
+.right {
+    right: 0;
+    background: linear-gradient(to left,
+            rgba(245, 245, 245, 1) 0%,
+            rgba(255, 255, 255, 0) 100%);
+}
+
+
+
+/* Trusted by... section Ended  */
+
+
+
+/* Spend less on training section started  */
+
+
+
+
+/* .spendMainparent{
+    height: 1000px;
+} */
+
+
+.SpendParentsMain{
+    height: 1000px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.SpendImage{
+    position: relative;
+    width: 382px;
+    height: 529px;
+    background-color: #243b7c;
+    border-radius: 1000px 1000px 48px 48px;
+}
+
+.SpendImage::after {
+    position: absolute;
+    content: "";
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    z-index: -1;
+    top: -80px;
+    left: -150px;
+    background-color: #f5f5f5;
+}
+.SpendImage::before {
+    position: absolute;
+    content: "";
+    width: 1000px;
+    height: 1000px;
+    border-radius: 50%;
+    z-index: -2;
+    top: -480px;
+    left: -550px;
+    background-color: #71bd43;
+}
+.SpendImage img {
+    /* height: 40px;
+    width: 40px; */
+}
+
+.SpendLogo {
+    height: 88px;
+    width: 88px;
+    position: absolute;
+    border-radius: 50px;
+    left: -35px;
+    top: 75px;
+    background-color: white;
+
+
+}
+
+.SpendLogo img {
+    height: 40px;
+    width: 40px;
+}
+
+.SpendStart {
+    left: 122px;
+    bottom: -60px;
+    padding: 28px 32px;
+    background: white;
+    border-radius: 20px;
+    position: absolute;
+    border-radius: 20px;
+    width: 295px;
+
+}
+
+.SpendStart i {
+    color: rgb(253, 188, 2);
+    font-size: 25px;
+    margin: 5px;
+}
+
+/* Spend less on training section Ended  */
+
+
+
+/* Our Impact section started  */
+
+
+/* Our Impact section Ended  */
+
+
+
+
+
+/* Codepan code start  */
+
+.ourText h2 {
+    font-size: 53px;
+    font-weight: 700;
+}
+
+.circle h2 {
+    font-size: 48px;
+}
+
+.CircleCard p {
+    font-size: 16px;
+}
+
+.circle {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    line-height: 200px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0 auto 40px;
+    padding: 20px;
+}
+
+.blue::after {
+    position: absolute;
+    content: '';
+    width: 350px;
+    border-radius: 50%;
+    opacity: .3;
+    z-index: -1;
+    height: 350px;
+    background-color: #243b7c;
+}
+
+.green::after {
+    position: absolute;
+    content: '';
+    width: 350px;
+    border-radius: 50%;
+    opacity: .3;
+    z-index: -1;
+    height: 350px;
+    background-color: #71bd43;
+}
+
+.blue {
+    background-color: #243b7c;
+    margin-bottom: 30px !important;
+}
+
+.circleBlue {
+    position: absolute;
+    background-color: white;
+    height: 88px;
+    width: 88px;
+    z-index: 1;
+    top: -50px;
+    left: 60%;
+    border-radius: 50% 50% 50% 5%;
+}
+
+.circleBlue img {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+}
+
+.green {
+    background-color: #76bd4c;
+}
+
+.circleGreen {
+    position: absolute;
+    background-color: white;
+    height: 88px;
+    width: 88px;
+    z-index: 1;
+    top: -40px;
+    left: 70%;
+    border-radius: 50% 50% 50% 5%;
+}
+
+.circleGreen img {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+}
+
+.circleThird {
+    position: absolute;
+    background-color: white;
+    height: 88px;
+    width: 88px;
+    z-index: 1;
+    top: -50px;
+    left: 60%;
+    border-radius: 50% 50% 50% 5%;
+}
+
+.circleThird img {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+}
+
+.circleForth {
+    position: absolute;
+    background-color: white;
+    height: 88px;
+    width: 88px;
+    z-index: 1;
+    top: -35px;
+    left: 70%;
+
+    border-radius: 50% 50% 50% 5%;
+}
+
+.circleForth img {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+}
+
+/* Codepan code start */
+
+
+
+
+/* Form section started */
+
+.FormMain {
+    position: relative;
+    padding: 77px 0 80px;
+    overflow: hidden;
+}
+
+
+
+.FormgirlImage {
+    position: relative;
+    top: -160px;
+    left: 105px;
+}
+
+
+.FormChild {
+    position: relative;
+    height: 600px;
+
+}
+
+.FormChild img {
+    border-radius: 32px;
+    position: absolute;
+    height: 100%;
+    width: 80%;
+
+}
+
+.cardTextt {
+    display: flex;
+    align-items: end;
+    position: absolute;
+    height: 600px;
+    width: 100%;
+    margin-bottom: 20%;
+    margin-left: 50px;
+}
+
+.cardTextt img {
+    width: 72px;
+    height: 72px;
+    background: #fff;
+    border-radius: 50%;
+    margin-bottom: 15%;
+    padding: 10px;
+}
+
+.formchildtext h2 {
+    color: white;
+}
+
+.formchildtext p {
+    color: white;
+}
+
+.Formfiled label {
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 160%;
+    margin-bottom: 8px;
+}
+
+.Formfiled input {
+    width: 100%;
+    line-height: 22px;
+    padding: 20px 21px;
+    background: #fff;
+    border: 1px solid #cecfd5;
+    border-radius: 10px;
+
+}
+
+.Formfiled select {
+    min-height: 32px;
+    background-color: white;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    cursor: text;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+
+.Formfiled p label {
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+
+.Formfiled textarea {
+    height: 166px;
+    resize: none;
+    border-radius: 10px;
+    border: 1px solid #cecfd5;
+    background: #fff;
+    padding: 20px 21px;
+    line-height: 22px;
+    width: 100%;
+
+}
+
+.Formfiled h3 {
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 160%;
+    margin-bottom: 8px;
+}
+
+.Formfiled .captachamain {
+    height: 74px;
+    width: 206px;
+    background-color: #6dc3ef;
+
+}
+
+.captachamain .innerboxcapchta {
+    height: 28px;
+    top: -4px;
+    width: 36px;
+    background-color: #1621e9;
+    margin-top: 20px;
+
+}
+
+
+/* Form section Ended */
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+/* $rgb-204: rgb(204, 204, 204); */
+
+.input-container {
+    background-color: rgb(249, 249, 249);
+    border: 1px solid #d3d3d3;
+    height: 74px;
+    width: 300px;
+    font-family: Roboto, sans-serif;
+    display: inline-block;
+    padding: 15px;
+
+
+}
+
+.input-container input {
+    margin-left: 11px;
+    background-color: white;
+    padding: 20px;
+}
+
+.captcha h3 {
+    font-size: 16px;
+}
+
+img {
+    /* width: 32px; */
+    display: inline;
+    /* margin-left: -60px; */
+}
+
+
+
+.recaptcha {
+    font-size: 10px;
+    margin-left: -48px;
+    position: relative;
+    bottom: -20px;
+}
+
+
+a:hover {
+    text-decoration: underline;
+}
+
+.triangle {
+    width: 0px;
+    height: 0px;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    /* border-bottom: 7px solid $rgb-204; */
+    /* border-top: 7px solid transparent; */
+    position: relative;
+    left: 10px;
+    top: -55px;
+}
+
+
+
+
+.captcha-code {
+    padding: 15p x 0;
+    border: none;
+    /* border-bottom: 1px solid $rgb-204; */
+    font-size: 18px;
+    width: 90%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+
+}
+
+
+
+
+/* Slider of 50% width started */
+
+
+
+
+
+
+/* Slider of 50% width started */
+
+
+/* footer section stated */
+
+
+.footerText {
+    background-color: #fff;
+    display: flex;
+    border-radius: 32px;
+    margin-bottom: 75px;
+    padding: 48px 60px;
+    column-gap: 94px;
+    align-items: center;
+
+}
+
+.footerForm {
+    position: relative;
+}
+
+.footerForm input {
+    width: 90%;
+    height: 85px;
+    outline: none;
+    border: none;
+    border-radius: 45px;
+    padding: 0 32px;
+    background-color: #9d9fab;
+}
+
+.footerForm button {
+    position: absolute;
+    right: 110px;
+    top: 25px;
+    border-radius: 20px;
+    font-size: 20px;
+    line-height: 1.6;
+    background-color: var(--color-green-light);
+}
+
+.footerList li a {
+    font-size: 18px;
+}
+.footerList .navbar-nav
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footetDownText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+
+.footetDownText h4 {
+    font-size: 14px;
+}
+
+.footetDownText img {
+    width: 242px;
+    margin: 0 auto 0 110px;
+
+}
+
+
+/* footer section ended */
+
+
+
+
+
+
+/* card carosol section started  */
+
+.itemCard {
+    background-color: #fff;
+    width: 100%;
+    height: 550px;
+    padding: 20px;
+    border-radius: 25px;
+
+}
+
+.card_body {
+    text-align: center;
+}
+
+.cardCarosol img {
+    width: 100%;
+    height: 300px;
+}
+
+.paragrapfText {
+    padding-top: 50px;
+    text-align: left;
+    font-size: 12px;
+}
+
+.titleName {
+    color: white;
+    font-size: 14px;
+    background-color: #71bd43;
+    width: 80%;
+    padding: 20px;
+    border-radius: 20px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.imgCardMain {
+    position: relative;
+    /* width: 250px; */
+    height: 300px;
+}
+
+.imgCardMain::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+#imgCard::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: url("https://www.oneononelms.com/wp-content/uploads/2022/07/Business-Person-1659143940.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#imgCard1::after {
+    background-color: #cecfd5;
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: url("https://www.oneononelms.com/wp-content/uploads/2022/07/Rectangle-22-1657307124.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#imgCard2::after {
+    background-color: #cecfd5;
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: url("https://www.oneononelms.com/wp-content/uploads/2020/04/Ricardo-Allen-surrounded-by-kids-1658367697.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 25px;
+}
+
+#imgCard3::after {
+    /* background-color: #cecfd5; */
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: url("https://www.oneononelms.com/wp-content/uploads/2022/07/leonie-1-1657307155.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#imgCard4::after {
+    /* background-color: #cecfd5; */
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: url("https://www.oneononelms.com/wp-content/uploads/2022/07/image-1-1657307157.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+/* card carosol section started  */
+
+.owl-carousel .owl-nav button.owl-prevpadding {
+    padding: 20px !important;
+}
+
+.owl-theme .owl-nav {
+    margin-top: 10px;
+    position: relative;
+    right: 80%;
+    bottom: 40%;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+    font-weight: 700;
+    font-size: 60px;
+    color: white;
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+    font-weight: 700;
+    font-size: 60px;
+    color: white;
+}
+
+.itemCard{
+    background-color: red;
+    margin: 20px;
+}
