@@ -47,9 +47,7 @@ body {
     font-size: 53px;
     font-weight: 700;
     line-height: 121%;
-    margin: 52px 20px 0 23px;
-    text-align: left;
-    width: 470px;
+   
 }
 
 .taining p {
@@ -58,16 +56,19 @@ body {
     font-size: 16px;
     line-height: 160%;
     text-align: left;
-    width: 470px;
+    /* width: 470px; */
 }
 
-.image_parent {
-    /* height: 1000px; */
-    /* position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center; */
+
+
+@media (max-width:425px) {
+    .taining h2 {
+        font-size: 34px;
+       
+    }
 }
+
+
 
 .btnbox .demobtn {
     border-radius: 15px;
@@ -129,9 +130,7 @@ body {
 
 .platformImg img {
     position: relative;
-    top: -58px;
-    right: -20;
-}
+}   
 
 .starmain {
     left: 62px;
@@ -189,6 +188,14 @@ body {
     ;
 }
 
+@media (max-width:425px) {
+    .wedoText h2 {
+        padding: 30px;
+        margin: 20px 0;
+        font-size: 36px;
+    }
+}
+
 .sliderSection {
     padding: 0px !important;
     margin-top: 40px;
@@ -209,6 +216,7 @@ body {
     z-index: 5;
 }
 
+@media (min-width:425px){
 .textBox {
     background-color: #002672;
     position: absolute;
@@ -223,6 +231,23 @@ body {
     right: 0px;
     /* opacity: 0.5; */
     position: absolute;
+
+}
+}
+.textBox {
+    background-color: #002672;
+    /* position: absolute; */
+    width: 58%;
+    /* height: 800px; */
+
+}
+
+.sliderBox {
+    /* background-color: #243b7c; */
+    /* top: 0px; */
+    /* right: 0px; */
+    /* opacity: 0.5; */
+    /* position: absolute; */
 
 }
 
@@ -247,25 +272,44 @@ body {
 
 
 /* Our Features section started  */
-
-.FeatureMainSec {
-    /* margin-top: 40px; */
+@media (min-width:425px) {
+    
+    .FeatureMainSec {
+        /* margin-top: 40px; */
     position: relative;
     height: 1600px;
 }
 
 
 .featurechild {
-    background-color: #8f82c8;
+    background-color: #002672;
     position: absolute;
     width: 58%;
     height: 100%;
 }
 
+}
+
+
+.FeatureMainSec {
+    /* margin-top: 40px; */
+/* position: relative; */
+/* height: 1600px; */
+}
+
+
+.featurechild {
+background-color: #002672;
+/* position: absolute; */
+width: 58%;
+/* height: 100%; */
+}
+
+
 .fetureText {
-    width: 60%;
-    /* background-color: blue; */
-    margin-left: 85px;
+   
+    width: 40%;
+    margin-left: 30%;
     color: white;
     margin-top: 50px;
     padding: 35px;
@@ -280,19 +324,23 @@ body {
 }
 
 .featurechild h3 {
+   
     color: white;
-    font-size: 71px;
-    font-weight: 700;
+    font-size: 64px;
+    font-weight: 700 !important;
     line-height: 110%;
     font-weight: 400;
 
 }
 
 .featurechild p {
+  
     color: white;
-    font-size: 16px;
     line-height: 160%;
     margin-top: 35px;
+    font-size: 20px;
+    line-height: 160%;
+    
 }
 
 .ImagesCardParent {
@@ -300,8 +348,7 @@ body {
     margin: 10px;
     width: 45%;
     height: 360px;
-    /* background-color: red; */
-    /* width: 100%; */
+  margin-top: 10%;
     padding: 20px;
     border-radius: 25px;
 }
@@ -449,10 +496,32 @@ body {
 
 .traingtext h3 {
     font-size: 64px;
-    row-gap: 24px;
     font-weight: 700;
     color: #243b7c;
 }
+
+
+@media (max-width:425px) {
+    .traingtext h3 {
+        font-size: 46px;
+        color: black;
+        text-align: center;
+    }
+
+    .alsoOfferParent {
+      text-align: center;
+      padding: 20px;
+    }
+    .alsoOfferParent h4{
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .alsoOfferParent p{
+        font-size: 14px;
+        font-weight: 400;
+    }
+}
+
 
 .traingsubheading h4 {
     margin-bottom: 4px;
@@ -622,7 +691,7 @@ body {
 
 
 .SpendParentsMain{
-    height: 1000px;
+    height: 700px;
     position: relative;
     display: flex;
     justify-content: center;
@@ -658,11 +727,10 @@ body {
     z-index: -2;
     top: -480px;
     left: -550px;
-    background-color: #71bd43;
+    background-color: #60a552;
 }
-.SpendImage img {
-    /* height: 40px;
-    width: 40px; */
+.spendMainThme{
+    margin-top: 25%;
 }
 
 .SpendLogo {
@@ -718,14 +786,21 @@ body {
 .ourText h2 {
     font-size: 53px;
     font-weight: 700;
+    text-align: center;
 }
 
 .circle h2 {
     font-size: 48px;
 }
 
+.circleCardChild  {
+padding: 20px;    
+}
 .CircleCard p {
     font-size: 16px;
+    padding: 20px;
+
+    
 }
 
 .circle {
@@ -1118,7 +1193,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 30px;
+    /* padding: 30px; */
 }
 
 .footetDownText h4 {
@@ -1127,7 +1202,7 @@ a:hover {
 
 .footetDownText img {
     width: 242px;
-    margin: 0 auto 0 110px;
+    /* margin: 0 auto 0 110px; */
 
 }
 
@@ -1144,7 +1219,7 @@ a:hover {
 .itemCard {
     background-color: #fff;
     width: 100%;
-    height: 550px;
+    /* height: 550px;    */
     padding: 20px;
     border-radius: 25px;
 
@@ -1274,18 +1349,83 @@ a:hover {
 }
 
 .owl-carousel .owl-nav button.owl-next {
+    /* position: absolute; */
     font-weight: 700;
     font-size: 60px;
     color: white;
+    /* left: 170%;
+    top: -362px; */
 }
 
 .owl-carousel .owl-nav button.owl-prev {
+    /* position: absolute; */
     font-weight: 700;
     font-size: 60px;
     color: white;
+    /* left: 165%;
+    top: -362px; */
 }
 
-.itemCard{
-    background-color: red;
-    margin: 20px;
+.itemCardCarosol{
+    padding: 35px;
+    /* width: 75%; */
+}
+
+.card-bodyForText h3{
+    font-size: 16px;
+}
+
+.caroHeading{
+    font-size: 42px;
+    font-weight: 700;
+    color: #0a0e2e;
+
+}
+
+.caroParagraph{
+    font-size: 20px;
+    color: #6c6e82;
+}
+
+.testMonial{
+    position: relative;
+    width: 339px;
+    height: 86px;
+    padding: 24px 42px;
+    border-radius: 100px 0 0 100px;
+    background-color: #243b7c;
+}
+.testMonial h4{
+
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.textBlue  {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    background-color: #13ddda;
+    right: 95px;
+    top: -13px;
+    border-radius: 50%;
+}
+.textGreen  {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    background-color: #60a552;
+    right: 60px;
+    top: -13px;
+    border-radius: 50%;
+}
+.textOrange  {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    background-color: orange;
+    right: 25px;
+    top: -13px;
+    border-radius: 50%;
 }
