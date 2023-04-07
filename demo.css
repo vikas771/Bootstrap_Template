@@ -17,7 +17,9 @@
     --color-blue-dark: #243b7c;
     --color-blue-light: #6dc3ef;
     --color-yellow: #e52a0d;
-    --bg-gradient-green: linear-gradient(257.79deg, var(--color-green) 0%, var(--color-green-light) 100%);
+    --bg-gradient-green: linear-gradient(257.79deg,
+            var(--color-green) 0%,
+            var(--color-green-light) 100%);
 }
 
 body {
@@ -47,7 +49,6 @@ body {
     font-size: 53px;
     font-weight: 700;
     line-height: 121%;
-   
 }
 
 .taining p {
@@ -58,17 +59,6 @@ body {
     text-align: left;
     /* width: 470px; */
 }
-
-
-
-@media (max-width:425px) {
-    .taining h2 {
-        font-size: 34px;
-       
-    }
-}
-
-
 
 .btnbox .demobtn {
     border-radius: 15px;
@@ -92,19 +82,18 @@ body {
 
 .bg_image {
     width: 483px;
-    height: 668px;
+    height: 755px;
     margin-left: 45px;
     background-color: #0d2aaf;
     border-radius: 1000px 1000px 48px 48px;
     position: absolute;
     z-index: -1;
-
 }
 
 .image {
     position: relative;
     top: -68px;
-    left: -76px
+    left: -45px;
 }
 
 .image img {
@@ -118,7 +107,7 @@ body {
     width: 70px;
     position: absolute;
     border-radius: 50px;
-    right: 50px;
+    right: -12px;
     top: 127px;
     background-color: white;
 }
@@ -130,7 +119,7 @@ body {
 
 .platformImg img {
     position: relative;
-}   
+}
 
 .starmain {
     left: 62px;
@@ -161,14 +150,13 @@ body {
     position: absolute;
     left: 45%;
     top: -55px;
-
 }
 
 .wedoText {
     position: relative;
     flex-direction: column;
     gap: 30px;
-    letter-spacing: .2px;
+    letter-spacing: 0.2px;
 }
 
 .wedoText h2 {
@@ -185,170 +173,173 @@ body {
     line-height: 1.4;
     text-align: center;
     color: #6c6e82;
-    ;
 }
 
-@media (max-width:425px) {
-    .wedoText h2 {
-        padding: 30px;
-        margin: 20px 0;
-        font-size: 36px;
-    }
+
+
+
+/* our product section started  */
+
+.section {
+  display: flex;
+}
+.text h2{
+color: white;
+font-size: 71px;
+font-weight: 700;
 }
 
-.sliderSection {
-    padding: 0px !important;
-    margin-top: 40px;
-    position: relative;
-    height: 800px;
+.text p{
+color: white;
+font-size: 16px;
+}
+.item {
+  width: 100% !important;
+  /* padding: 10px; */
+  border-radius: 19px;
+  background-color: rgb(255, 255, 255);
+  margin: 10px;
 }
 
-.sliderText {
-    height: 200px;
-    width: 58%;
-
-
-
+.box {
+  width: 58%;
 }
 
-.cardParent {
-    padding: 50px 0px;
-    z-index: 5;
+.box_1 {
+  background-color: #243b7c;
+  height: 785px;
 }
 
-@media (min-width:425px){
-.textBox {
-    background-color: #002672;
+.box .text {
+  width: 70%;
+  padding: 50px;
+}
+.cardMain{
+width: 12rem;
+background-color: white;
+}
+.box_2 {
+  position: absolute;
+  right: 0px;
+  padding: 0px 30px;
+}
+.box2Image{
+    height: 300px;
+    background-color: gray;
+    border-radius:25px ;
+}
+.box2Image img{
+    border-radius:25px ;
+    height: 100%;
+    width: 100%;
+}
+.cardParaText
+{
+font-size: 12px;
+}
+.cardMainText
+{
+
+padding: 5px 10px;
+background-color: aquamarine;
+}
+@media (max-width:426px) {
+  .section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .box {
+    width: 100%;
+  }
+  .box .text {
+  width: 100%;  
+}
+.text h2{
+    font-size: 50px;
+}
+  .box_2 {
+    width: 90%;
+    padding: 20px;
     position: absolute;
-    width: 58%;
-    height: 800px;
-
-}
-
-.sliderBox {
-    /* background-color: #243b7c; */
-    top: 0px;
     right: 0px;
-    /* opacity: 0.5; */
-    position: absolute;
+    top: 527px;
 
-}
-}
-.textBox {
-    background-color: #002672;
-    /* position: absolute; */
-    width: 58%;
-    /* height: 800px; */
+  }
 
 }
 
-.sliderBox {
-    /* background-color: #243b7c; */
-    /* top: 0px; */
-    /* right: 0px; */
-    /* opacity: 0.5; */
-    /* position: absolute; */
 
-}
+/* code pan  */
 
-.textP {
-    width: 60%;
-    margin-left: 85px;
-    color: white;
-    margin-top: 50px;
-    padding: 35px;
-}
 
-.textP h2 {
-    font-size: 71px;
-    font-weight: 700;
 
-}
 
-.textP p {
-    font-size: 15px;
-    font-weight: 400;
-}
+
+
+
+  
+  /*  */
+
+
+
+
+/* our product section started  */
+
+
+
 
 
 /* Our Features section started  */
-@media (min-width:425px) {
-    
-    .FeatureMainSec {
-        /* margin-top: 40px; */
-    position: relative;
-    height: 1600px;
-}
-
-
-.featurechild {
-    background-color: #002672;
-    position: absolute;
-    width: 58%;
-    height: 100%;
-}
-
-}
-
 
 .FeatureMainSec {
     /* margin-top: 40px; */
-/* position: relative; */
-/* height: 1600px; */
+    /* position: relative; */
+    /* height: 1600px; */
 }
-
 
 .featurechild {
-background-color: #002672;
-/* position: absolute; */
-width: 58%;
-/* height: 100%; */
+    background-color: #002672;
+    /* position: absolute; */
+    width: 58%;
+    height: 1730px;
 }
 
-
 .fetureText {
-   
-    width: 40%;
-    margin-left: 30%;
     color: white;
     margin-top: 50px;
-    padding: 35px;
+    padding: 80px;
+
 }
 
 .featureImgMain {
     position: absolute;
-    right: 0px;
+    left: 45%;
     padding: 98px 0;
-
-
 }
 
 .featurechild h3 {
-   
     color: white;
     font-size: 64px;
     font-weight: 700 !important;
     line-height: 110%;
     font-weight: 400;
-
 }
 
 .featurechild p {
-  
     color: white;
     line-height: 160%;
     margin-top: 35px;
     font-size: 20px;
     line-height: 160%;
-    
 }
 
 .ImagesCardParent {
     background-color: white;
     margin: 10px;
     width: 45%;
-    height: 360px;
-  margin-top: 10%;
+    height: 445px;
+    margin-top: 10%;
     padding: 20px;
     border-radius: 25px;
 }
@@ -374,7 +365,6 @@ width: 58%;
     background-position: center;
     border-radius: 25px;
     height: 244px;
-
 }
 
 #imageSlide1 {
@@ -434,7 +424,6 @@ width: 58%;
 
 /* Our Features section started  */
 
-
 /* Our Training Offerings section started  */
 
 .traingMain {
@@ -451,14 +440,12 @@ width: 58%;
     right: 218px;
     top: 180px;
     background-color: white;
-
 }
 
 .trainingImg img {
     position: relative;
     top: 157px;
     left: -51px;
-
 }
 
 .kinghead img {
@@ -466,15 +453,12 @@ width: 58%;
     height: 40px;
     margin-top: 12px;
     margin-left: 0px;
-
 }
 
 .kingdown img {
     position: relative;
     bottom: -158px;
     right: -20px;
-
-
 }
 
 .queenBackG {
@@ -493,45 +477,20 @@ width: 58%;
     left: 105px;
 }
 
-
 .traingtext h3 {
     font-size: 64px;
     font-weight: 700;
     color: #243b7c;
 }
 
-
-@media (max-width:425px) {
-    .traingtext h3 {
-        font-size: 46px;
-        color: black;
-        text-align: center;
-    }
-
-    .alsoOfferParent {
-      text-align: center;
-      padding: 20px;
-    }
-    .alsoOfferParent h4{
-        font-size: 18px;
-        font-weight: 700;
-    }
-    .alsoOfferParent p{
-        font-size: 14px;
-        font-weight: 400;
-    }
-}
-
-
 .traingsubheading h4 {
     margin-bottom: 4px;
     font-size: 18px;
     font-weight: 700;
-    letter-spacing: .2px;
+    letter-spacing: 0.2px;
 }
 
 /* Our Training Offerings section Ended  */
-
 
 /* We also offer... section started  */
 
@@ -541,21 +500,11 @@ width: 58%;
     overflow: hidden;
 }
 
-
 /* We also offer... section ended  */
-
-
-
-
 
 /* Trusted by... section started  */
 
-
 @import url("https://fonts.googleapis.com/css?family=Muli:400,700&display=swap");
-
-
-
-
 
 .container {
     width: 100%;
@@ -566,7 +515,6 @@ width: 58%;
     padding: 157px 0 162px;
     background-color: #243b7c;
     overflow: hidden;
-
 }
 
 .trusredText {
@@ -612,24 +560,6 @@ width: 58%;
     height: 135px;
     background: #fff;
     border-radius: 12px;
-
-
-}
-
-@media only screen and (max-width: 768px) {
-    .items {
-        animation: carouselAnim 35s infinite alternate linear;
-    }
-
-    @keyframes carouselAnim {
-        from {
-            transform: translate(0, 0);
-        }
-
-        to {
-            transform: translate(calc(-100% + (2 * 300px)));
-        }
-    }
 }
 
 .entry p {
@@ -674,23 +604,15 @@ width: 58%;
             rgba(255, 255, 255, 0) 100%);
 }
 
-
-
 /* Trusted by... section Ended  */
 
-
-
 /* Spend less on training section started  */
-
-
-
 
 /* .spendMainparent{
     height: 1000px;
 } */
 
-
-.SpendParentsMain{
+.SpendParentsMain {
     height: 700px;
     position: relative;
     display: flex;
@@ -698,8 +620,7 @@ width: 58%;
     align-items: center;
 }
 
-
-.SpendImage{
+.SpendImage {
     position: relative;
     width: 382px;
     height: 529px;
@@ -718,6 +639,7 @@ width: 58%;
     left: -150px;
     background-color: #f5f5f5;
 }
+
 .SpendImage::before {
     position: absolute;
     content: "";
@@ -729,7 +651,8 @@ width: 58%;
     left: -550px;
     background-color: #60a552;
 }
-.spendMainThme{
+
+.spendMainThme {
     margin-top: 25%;
 }
 
@@ -741,8 +664,6 @@ width: 58%;
     left: -35px;
     top: 75px;
     background-color: white;
-
-
 }
 
 .SpendLogo img {
@@ -759,7 +680,6 @@ width: 58%;
     position: absolute;
     border-radius: 20px;
     width: 295px;
-
 }
 
 .SpendStart i {
@@ -767,46 +687,49 @@ width: 58%;
     font-size: 25px;
     margin: 5px;
 }
+.Training{
+    padding: 50px;
+}
+.Training h3{
+    font-size: 42px;
+    font-weight: 700;
+}
+.Training p{
+    font-size: 20px;
+    color: #6c6e82;
+}
 
 /* Spend less on training section Ended  */
 
-
-
 /* Our Impact section started  */
 
-
 /* Our Impact section Ended  */
-
-
-
-
 
 /* Codepan code start  */
 
 .ourText h2 {
     font-size: 53px;
     font-weight: 700;
-    text-align: center;
+   
 }
 
 .circle h2 {
     font-size: 48px;
 }
 
-.circleCardChild  {
-padding: 20px;    
+.circleCardChild {
+    padding: 20px;
 }
+
 .CircleCard p {
     font-size: 16px;
     padding: 20px;
-
-    
 }
 
 .circle {
     position: relative;
-    width: 300px;
-    height: 300px;
+    width: 275px;
+    height: 275px;
     line-height: 200px;
     border-radius: 50%;
     -moz-border-radius: 50%;
@@ -822,23 +745,23 @@ padding: 20px;
 
 .blue::after {
     position: absolute;
-    content: '';
-    width: 350px;
+    content: "";
+    height: 325px;
+    width: 325px;
     border-radius: 50%;
-    opacity: .3;
+    opacity: 0.3;
     z-index: -1;
-    height: 350px;
     background-color: #243b7c;
 }
 
 .green::after {
     position: absolute;
-    content: '';
-    width: 350px;
+    content: "";
+    width: 325px;
+    height: 325px;
     border-radius: 50%;
-    opacity: .3;
+    opacity: 0.3;
     z-index: -1;
-    height: 350px;
     background-color: #71bd43;
 }
 
@@ -922,9 +845,6 @@ padding: 20px;
 
 /* Codepan code start */
 
-
-
-
 /* Form section started */
 
 .FormMain {
@@ -933,19 +853,15 @@ padding: 20px;
     overflow: hidden;
 }
 
-
-
 .FormgirlImage {
     position: relative;
     top: -160px;
     left: 105px;
 }
 
-
 .FormChild {
     position: relative;
     height: 600px;
-
 }
 
 .FormChild img {
@@ -953,7 +869,6 @@ padding: 20px;
     position: absolute;
     height: 100%;
     width: 80%;
-
 }
 
 .cardTextt {
@@ -974,7 +889,7 @@ padding: 20px;
     margin-bottom: 15%;
     padding: 10px;
 }
-
+/*  */
 .formchildtext h2 {
     color: white;
 }
@@ -998,7 +913,6 @@ padding: 20px;
     background: #fff;
     border: 1px solid #cecfd5;
     border-radius: 10px;
-
 }
 
 .Formfiled select {
@@ -1025,7 +939,6 @@ padding: 20px;
     padding: 20px 21px;
     line-height: 22px;
     width: 100%;
-
 }
 
 .Formfiled h3 {
@@ -1040,7 +953,6 @@ padding: 20px;
     height: 74px;
     width: 206px;
     background-color: #6dc3ef;
-
 }
 
 .captachamain .innerboxcapchta {
@@ -1049,13 +961,9 @@ padding: 20px;
     width: 36px;
     background-color: #1621e9;
     margin-top: 20px;
-
 }
 
-
 /* Form section Ended */
-
-
 
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 /* $rgb-204: rgb(204, 204, 204); */
@@ -1068,8 +976,6 @@ padding: 20px;
     font-family: Roboto, sans-serif;
     display: inline-block;
     padding: 15px;
-
-
 }
 
 .input-container input {
@@ -1082,13 +988,11 @@ padding: 20px;
     font-size: 16px;
 }
 
-img {
-    /* width: 32px; */
+.captcha img {
+    width: 32px;
     display: inline;
-    /* margin-left: -60px; */
+    margin-left: -60px;
 }
-
-
 
 .recaptcha {
     font-size: 10px;
@@ -1096,8 +1000,13 @@ img {
     position: relative;
     bottom: -20px;
 }
-
-
+.termsText a{
+    color: black;
+    position: absolute;
+    top: 82px;
+    left: 243px;
+    font-size: 10px;
+}
 a:hover {
     text-decoration: underline;
 }
@@ -1107,56 +1016,40 @@ a:hover {
     height: 0px;
     border-left: 7px solid transparent;
     border-right: 7px solid transparent;
-    /* border-bottom: 7px solid $rgb-204; */
-    /* border-top: 7px solid transparent; */
     position: relative;
     left: 10px;
     top: -55px;
 }
 
-
-
-
 .captcha-code {
     padding: 15p x 0;
     border: none;
-    /* border-bottom: 1px solid $rgb-204; */
     font-size: 18px;
     width: 90%;
     margin-left: 50%;
     transform: translateX(-50%);
-
 }
-
-
-
-
-/* Slider of 50% width started */
-
-
-
-
-
 
 /* Slider of 50% width started */
 
 
 /* footer section stated */
 
-
 .footerText {
     background-color: #fff;
     display: flex;
     border-radius: 32px;
     margin-bottom: 75px;
-    padding: 48px 60px;
+    padding: 30px 20px 20px;
     column-gap: 94px;
     align-items: center;
-
 }
 
 .footerForm {
     position: relative;
+    position: relative;
+    left: 250px;
+    top: -53px;
 }
 
 .footerForm input {
@@ -1182,13 +1075,13 @@ a:hover {
 .footerList li a {
     font-size: 18px;
 }
-.footerList .navbar-nav
-{
-    width: 100%;
+
+.footerList .navbar-nav {
     display: flex;
     justify-content: space-evenly;
 }
-.footetDownText{
+
+.footetDownText {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1202,136 +1095,99 @@ a:hover {
 
 .footetDownText img {
     width: 242px;
-    /* margin: 0 auto 0 110px; */
-
 }
-
 
 /* footer section ended */
 
-
-
-
-
-
 /* card carosol section started  */
 
-.itemCard {
-    background-color: #fff;
-    width: 100%;
-    /* height: 550px;    */
-    padding: 20px;
-    border-radius: 25px;
 
+
+
+
+
+    .section {
+      display: flex;
+    }
+.text h2{
+  color: white;
+  font-size: 71px;
+    font-weight: 700;
 }
 
-.card_body {
-    text-align: center;
+.text p{
+  color: white;
+  font-size: 16px;
+}
+    .item {
+      width: 100% !important;
+      border-radius: 25px;
+      background-color: rgb(255, 255, 255);
+      margin: 10px;
+    }
+
+    .Box_Top_Parent {
+      width: 50%;
+    }
+
+    .Box_Top_Parent_main_1 {
+      background-color: #243b7c;
+      height: 550px;
+    }
+
+.spendParent{
+  width: 100%;
 }
 
-.cardCarosol img {
-    width: 100%;
-    height: 300px;
+.spendChild h5{
+  font-size: 42px;
+    font-weight: 700;
+    color: black;
+}
+.spendChild p{
+  font-size: 20px;
+    font-weight: 300;
+    color: #6c6e82;
 }
 
-.paragrapfText {
-    padding-top: 50px;
-    text-align: left;
-    font-size: 12px;
-}
+    .Box_Top_Parent .text {
+      width: 70%;
+      padding: 50px;
+    }
 
-.titleName {
-    color: white;
-    font-size: 14px;
-    background-color: #71bd43;
-    width: 80%;
-    padding: 20px;
-    border-radius: 20px;
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+    .Box_Top_Parent_main_2 {
+      position: absolute;
+      right: 0;
+      padding: 50px;
+
+    }
+    
+ 
 
 
+    @media (max-width:426px) {
+      .section {
+        display: flex;
+        flex-direction: column;
+      }
 
-.imgCardMain {
-    position: relative;
-    /* width: 250px; */
-    height: 300px;
-}
+      .Box_Top_Parent {
+        width: 100%;
+      }
 
-.imgCardMain::before {
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
+      .Box_Top_Parent_main_2 {
+        width: 90%;
+        padding: 20px;
+        position: absolute;
+        right: 0px;
+        top: 527px;
+
+      }
+
+    }
+  
 
 
-
-#imgCard::after {
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 100%;
-    background: url("https://www.oneononelms.com/wp-content/uploads/2022/07/Business-Person-1659143940.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-#imgCard1::after {
-    background-color: #cecfd5;
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 100%;
-    background: url("https://www.oneononelms.com/wp-content/uploads/2022/07/Rectangle-22-1657307124.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-#imgCard2::after {
-    background-color: #cecfd5;
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 100%;
-    background: url("https://www.oneononelms.com/wp-content/uploads/2020/04/Ricardo-Allen-surrounded-by-kids-1658367697.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    border-radius: 25px;
-}
-
-#imgCard3::after {
-    /* background-color: #cecfd5; */
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 100%;
-    background: url("https://www.oneononelms.com/wp-content/uploads/2022/07/leonie-1-1657307155.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-#imgCard4::after {
-    /* background-color: #cecfd5; */
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 100%;
-    background: url("https://www.oneononelms.com/wp-content/uploads/2022/07/image-1-1657307157.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
 
 
 
@@ -1366,28 +1222,23 @@ a:hover {
     top: -362px; */
 }
 
-.itemCardCarosol{
-    padding: 35px;
-    /* width: 75%; */
-}
 
-.card-bodyForText h3{
+.card-bodyForText h3 {
     font-size: 16px;
 }
 
-.caroHeading{
+.caroHeading {
     font-size: 42px;
     font-weight: 700;
     color: #0a0e2e;
-
 }
 
-.caroParagraph{
+.caroParagraph {
     font-size: 20px;
     color: #6c6e82;
 }
 
-.testMonial{
+.testMonial {
     position: relative;
     width: 339px;
     height: 86px;
@@ -1395,14 +1246,14 @@ a:hover {
     border-radius: 100px 0 0 100px;
     background-color: #243b7c;
 }
-.testMonial h4{
 
+.testMonial h4 {
     color: white;
     font-size: 24px;
     font-weight: 700;
 }
 
-.textBlue  {
+.textBlue {
     position: absolute;
     height: 25px;
     width: 25px;
@@ -1411,7 +1262,8 @@ a:hover {
     top: -13px;
     border-radius: 50%;
 }
-.textGreen  {
+
+.textGreen {
     position: absolute;
     height: 25px;
     width: 25px;
@@ -1420,7 +1272,8 @@ a:hover {
     top: -13px;
     border-radius: 50%;
 }
-.textOrange  {
+
+.textOrange {
     position: absolute;
     height: 25px;
     width: 25px;
@@ -1429,3 +1282,298 @@ a:hover {
     top: -13px;
     border-radius: 50%;
 }
+.image_parent{
+    padding: 20px;
+    text-align: center;
+}
+
+/* Media Query started stated here  */
+
+@media only screen and (max-width: 768px) {
+    .items {
+        animation: carouselAnim 35s infinite alternate linear;
+    }
+
+    @keyframes carouselAnim {
+        from {
+            transform: translate(0, 0);
+        }
+
+        to {
+            transform: translate(calc(-100% + (2 * 300px)));
+        }
+    }
+}
+
+@media (max-width: 425px) {
+
+
+
+    .btnbox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btnbox button {
+        margin-bottom: 20px;
+    }
+
+    .bg_image {
+        width: 100%;
+        height: 565px;
+        margin-left: 0px;
+    }
+
+    .medalparent {
+        right: -80px;
+
+    }
+    .platformImg img{
+        width: 100%;
+    }
+
+    /* .platformImg img {
+        left: 86px;
+        top: 192px;
+    } */
+
+    .starmain {
+        bottom: -195px;
+        padding: 8px 9px;
+    }
+
+    .starmain h4{
+        font-size: 20px;
+        padding: 4px;
+    }
+
+    .taining h2 {
+        font-size: 34px;
+    }
+
+    .traingtext h3 {
+        font-size: 46px;
+        text-align: center;
+    }
+
+    .downloadIcon { 
+       left: 40%;
+    }
+    .alsoOfferParent {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .alsoOfferParent h4 {
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .alsoOfferParent p {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .FeatureMainSec {
+        position: relative;
+        /* height: 1600px; */
+    }
+
+    .featurechild {
+        background-color: #002672;
+        position: absolute;
+        width: 58%;
+    }
+    .queenBackG{
+        height: 666px;
+    }
+    .kinghead{
+        right: 1px;
+        top: 158px;
+    }
+
+    .kingdown img{
+        bottom: -110px;
+
+    }
+
+    .wedoText{
+        padding: 20px;
+    }
+
+    .wedoText h2 {
+        padding: 30px;
+        margin: 20px 0;
+        font-size: 36px;
+    }
+
+    .textBox {
+        background-color: #002672;
+        position: absolute;
+        width: 58%;
+        height: 800px;
+    }
+    .trusted{
+        padding: 25px 0 60px;
+    }
+    .trusredText h1{
+        font-size: 50px;
+        font-weight: 400;
+    }
+    .entry{
+        width: 210px;
+    }
+
+    .entry img{
+        width: 205px;
+        height: 80px;
+    }
+  
+
+    .footerForm button {
+        top: 90px;
+    }
+
+    .textBox {
+        width: 100%;
+        padding: 10px;
+        display: inline-block;
+        height: auto;
+    }
+
+ 
+
+
+    .logoIconFooter a{
+        justify-content: space-evenly;
+    }
+
+    .footerForm {
+        position: relative;
+        left: -4px;
+        top: -12px;
+    }
+    .d-flex{
+        justify-content: space-evenly;
+    }
+    /*  */
+    .SpendImage::before {
+        height: auto;
+        width: 100%;
+    }
+
+    .SpendImage{
+        width: 100%;
+        height: 429px;
+    }
+    .SpendStart{
+        left: 0px;
+        padding: 10px 20px;
+    }
+
+    .Training {
+        padding: 20px;
+    }
+
+    .Training h3 {
+        font-size: 30px;
+    }
+    .Training p {
+        font-size: 16px;
+    }
+
+}
+
+/* Media Query started stated ended  */
+
+
+
+
+
+
+
+
+
+.owl-item {
+    margin: 10px 30px;
+    width: 320px !important;
+}
+
+@media (max-width: 426px) {
+
+    .newBox1,
+    .newBox2 {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .text_box {
+        width: 100%;
+    }
+
+    .newBox1 {
+        height: 400px;
+    }
+
+    .newBox2 {
+        top: 250px;
+    }
+
+    .owl-item {
+        /* margin: 10px 30px; */
+        width: 350px !important;
+    }
+
+    .fetureText {
+        color: white;
+        margin-top: 50px;
+        padding: 20px;
+    }
+    .feaureparent{
+        height: 3400px;
+    }
+
+    .featureImgMain{
+        left: 0%;
+       top: 300px;
+    }
+
+    .ImagesCardParent {
+        width: 90%;
+    }
+
+    .featurechild{
+        width: 100%;
+        height: 3410px;
+    }
+
+    .queenImg {
+        left: 0px;
+}
+    
+    .queenBackG{
+        margin-left: 0px;
+        width: 100%;
+    }
+.fontText{
+    color: red;
+
+}
+    .ourText h2 {
+        text-align: center;
+        font-size: 56px;
+        font-weight: 700;
+    }
+    
+    
+}
+
+
+.owl-item{
+    width: 650px !important;
+        margin-right: -5px !important;
+
+}
+
+/* navbar css */

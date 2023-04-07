@@ -7,19 +7,47 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
     <title>Bootstrap Example</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
         integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="./demo.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
         integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./demo.css">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
         integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+
+
+
+    <!-- <link href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.carousel.min.css"
+        rel="stylesheet"> -->
+    <!-- <link href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.theme.default.min.css"
+        rel="stylesheet"> -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous"> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script> -->
+    <!-- <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/vendors/jquery.min.js">    </script> -->
+    <!-- <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.js">    </script> -->
+
+
 
 
 
@@ -31,27 +59,33 @@
 
     <!-- Header section started -->
 
-    <div class="container">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <img src="https://www.oneononelms.com/wp-content/themes/one-on-one/img/logo.svg" alt="">
-            <div class="navbarO">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+     <div class="Section">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <img src="https://www.oneononelms.com/wp-content/themes/one-on-one/img/logo.svg" alt="">
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#">Link</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Solutions
                         </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">One for Businesses</a></li>
-                            <li><a class="dropdown-item" href="#">One for Governments and Schools</a></li>
-                            <li><a class="dropdown-item" href="#">Classroom in a Box</a></li>
-                        </ul>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">One for Businesses</a>
+                            <a class="dropdown-item" href="#">One for Governments and Schools</a>
+                            <a class="dropdown-item" href="#">Classroom in a Box</a>
+                        </div>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">News & Tips</a>
@@ -62,11 +96,16 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contact</a>
                     </li>
-                    <button type="submit">Book A Demo</button>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Book A Demo</a>
+                    </li>
                 </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Book A Demo</button>
+                </form>
             </div>
         </nav>
-    </div>
+    </div> 
 
     <!-- Header section Ended -->
 
@@ -82,9 +121,7 @@
                     from a diverse library, and use data to inform decisions.</p>
                 <div class="btnbox">
                     <button type="button" class="btn btn-success demobtn">Book A Demo</button>
-                    <!-- <a href=""><span>Book A Demo</span></a> -->
-                    <a href=""><span>Contact Us</span></a>
-                    <i class="bi bi-chat-dots-fill"></i>
+                    <a href=""><span>Contact Us <i class="bi bi-chat-dots-fill"></i></span></a>
                 </div>
             </div>
             <div class="col-md-6 image_parent mt-5 order-1 order-md-2">
@@ -109,13 +146,13 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> 
 
     <!-- Online traing section Ended -->
 
     <!-- What we do section started -->
 
-    <div class="container weDo mt-5">
+     <div class="container weDo mt-5">
         <div class="row">
 
             <div class="wedoText">
@@ -136,209 +173,193 @@
 
 
     <!-- Our section started  -->
-    <div class="container">
-        <div class="container-fluid sliderSection ">
-            <div class="row">
-                <div class="textBox order-1 col-md-6  sliderText">
-                    <div class="textP">
-                        <h2>Our Products</h2>
-                        <p>We have four core products that help you and other Caribbean people close knowledge gaps.
-                            These
-                            products offer personalised learning solutions that help Caribbean learners upgrade their
-                            skills and
-                            help Caribbean businesses upskill their workforces.</p>
-                    </div>
-                </div>
-
-                <div class="sliderBox order-2 col-md-6  sliderText">
-                    <div class="row">
-                        <div class="owl-carousel owl-theme cardParent">
-                            <div class="itemCard">
-                                <div class="cardCarosol">
-                                    <div class="imgCardMain" id="imgCard"></div>
-                                    <div class="card_body">
-                                        <h5 class="titleName">Ready-Made Courses</h5>
-                                        <p class="paragrapfText"> We provide over 30,000 pre-made courses to help
-                                            companies
-                                            develop
-                                            the
-                                            world’s most productive and admired workforces through engaging online
-                                            learning
-                                            programs.</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="itemCard">
-                                <div class="cardCarosol">
-                                    <div class="imgCardMain" id="imgCard1"></div>
-                                    <div class="card_body">
-                                        <h5 class="titleName">Bespoke Content</h5>
-                                        <p class="paragrapfText"> Our done-for-you content service allows you to get a
-                                            range of
-                                            engaging
-                                            and personalised course material such as videos, case studies, and slide
-                                            presentations.
-                                            We have a team of experienced content developers who know how to tailor
-                                            learning
-                                            material for Caribbean learners.</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="itemCard">
-                                <div class="cardCarosol">
-                                    <div class=" imgCardMain" id="imgCard2"></div>
-                                    <div class="card_body">
-                                        <h5 class="titleName">Education Management Information System (EMIS)</h5>
-                                        <p class="paragrapfText"> We use an EMIS to help governments collect and manage
-                                            all the
-                                            data
-                                            related to educating their nation's children. This data has been used by
-                                            both the
-                                            Jamaican and Bahamian governments to inform improvements to their education
-                                            systems.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="itemCard">
-                                <div class="cardCarosol">
-                                    <div class=" imgCardMain" id="imgCard3"></div>
-                                    <div class="card_body">
-                                        <h5 class="titleName">Classroom In A Box</h5>
-                                        <p class="paragrapfText"> Classroom In A Box makes it easy for teachers,
-                                            students, and
-                                            administrators to access, curate, manage, and publish content offline. No
-                                            internet
-                                            access needed, just add your content and connect your students' devices to
-                                            the box.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="itemCard">
-                                <div class="cardCarosol">
-                                    <div class=" imgCardMain" id="imgCard4"></div>
-                                    <div class="card_body">
-                                        <h5 class="titleName">Learning Management System (LMS)</h5>
-                                        <p class="paragrapfText"> A learning management system (LMS) is a software
-                                            application
-                                            that
-                                            provides a seamless process for asynchronous and real time virtual training.
-                                            It's a
-                                            hub for course material people can access anytime, anywhere. You can use our
-                                            LMS to
-                                            host your own course material or choose from our library of pre-made
-                                            courses.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
     <!-- Our section ended  -->
 
 
 
     <!-- Our Features section started  -->
-    <div class="container">
-        <div class="contailer-fluid FeatureMainSec">
-            <div class="row feaureparent">
-                <div class="col-md-6 featurechild">
-                    <div class="fetureText">
-                        <h3>Our Features</h3>
-                        <p>Close skills gaps so that your team can be made ready for an ever-evolving world</p>
+
+    <div class="contailer-fluid FeatureMainSec mt-5">
+        <div class="row feaureparent">
+            <div class="col-md-6 featurechild">
+                <div class="fetureText">
+                    <h3>Our Features</h3>
+                    <p>Close skills gaps so that your team can be made ready for an ever-evolving world</p>
+                </div>
+            </div>
+            <div class="col-md-6 featureImgMain">
+
+                <div class="container">
+                    <div class="row ">
+                        <div class="ImagesCardParent">
+                            <div class="ImagesCard">
+                                <div class="slideImage" id="imageSlide"></div>
+                                <div class="card-body">
+                                    <h5 class="TextMain">Gamification</h5>
+                                    <p class="TextSecond">Make online training fun through competitions,
+                                        leaderboards,
+                                        badges,
+                                        points, and other incentives.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="ImagesCardParent">
+                            <div class="ImagesCard">
+                                <div class="slideImage" id="imageSlide1"></div>
+                                <div class="card-body">
+                                    <h5 class="TextMain">Variety Of Courses</h5>
+                                    <p class="TextSecond">Access our library of over 30,000 courses across multiple
+                                        disciplines.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="ImagesCardParent">
+                            <div class="ImagesCard">
+                                <div class="slideImage" id="imageSlide2"></div>
+                                <div class="card-body">
+                                    <h5 class="TextMain">Accessibility</h5>
+                                    <p class="TextSecond">Make learning accessible to everyone on your team.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="ImagesCardParent">
+                            <div class="ImagesCard">
+                                <div class="slideImage" id="imageSlide3"></div>
+                                <div class="card-body">
+                                    <h5 class="TextMain">Don't train blindly</h5>
+                                    <p class="TextSecond">Use our LMS data to evaluate your online training
+                                        program’s
+                                        success.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="ImagesCardParent">
+                            <div class="ImagesCard">
+                                <div class="slideImage" id="imageSlide4"></div>
+                                <div class="card-body">
+                                    <h5 class="TextMain">Certification</h5>
+                                    <p class="TextSecond">Get course completion certificates that help with internal
+                                        mobility and career advancement.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="ImagesCardParent">
+                            <div class="ImagesCard">
+                                <div class="slideImage" id="imageSlide5"></div>
+                                <div class="card-body">
+                                    <h5 class="TextMain">Branding</h5>
+                                    <p class="TextSecond">Design your LMS portal to be a true representation of your
+                                        brand.</p>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
-                <div class="col-md-6 featureImgMain">
 
-                    <div class="container">
-                        <div class="row ">
-                            <div class="ImagesCardParent">
-                                <div class="ImagesCard">
-                                    <div class="slideImage" id="imageSlide"></div>
-                                    <div class="card-body">
-                                        <h5 class="TextMain">Gamification</h5>
-                                        <p class="TextSecond">Make online training fun through competitions,
-                                            leaderboards,
-                                            badges,
-                                            points, and other incentives.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="ImagesCardParent">
-                                <div class="ImagesCard">
-                                    <div class="slideImage" id="imageSlide1"></div>
-                                    <div class="card-body">
-                                        <h5 class="TextMain">Variety Of Courses</h5>
-                                        <p class="TextSecond">Access our library of over 30,000 courses across multiple
-                                            disciplines.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="ImagesCardParent">
-                                <div class="ImagesCard">
-                                    <div class="slideImage" id="imageSlide2"></div>
-                                    <div class="card-body">
-                                        <h5 class="TextMain">Accessibility</h5>
-                                        <p class="TextSecond">Make learning accessible to everyone on your team.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="ImagesCardParent">
-                                <div class="ImagesCard">
-                                    <div class="slideImage" id="imageSlide3"></div>
-                                    <div class="card-body">
-                                        <h5 class="TextMain">Don't train blindly</h5>
-                                        <p class="TextSecond">Use our LMS data to evaluate your online training
-                                            program’s
-                                            success.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="ImagesCardParent">
-                                <div class="ImagesCard">
-                                    <div class="slideImage" id="imageSlide4"></div>
-                                    <div class="card-body">
-                                        <h5 class="TextMain">Certification</h5>
-                                        <p class="TextSecond">Get course completion certificates that help with internal
-                                            mobility and career advancement.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="ImagesCardParent">
-                                <div class="ImagesCard">
-                                    <div class="slideImage" id="imageSlide5"></div>
-                                    <div class="card-body">
-                                        <h5 class="TextMain">Branding</h5>
-                                        <p class="TextSecond">Design your LMS portal to be a true representation of your
-                                            brand.</p>
-                                    </div>
-                                </div>
-                            </div>
+            </div>
+        </div>
+    </div> 
 
+    <!-- Our Features section ended -->
+
+     <div class="section">
+        <div class="box box_1">
+            <div class="text">
+                <h2>Our Products</h2>
+                <p>We have four core products that help you and other Caribbean people close knowledge gaps. These
+                    products offer personalised learning solutions that help Caribbean learners upgrade their skills and
+                    help Caribbean businesses upskill their workforces.</p>
+            </div>
+        </div>
+        <div class="box box_2 ">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <div class="cardMain container py-3" style="width: 18rem;">
+                        <div class="box2Image">
+                            <img src="https://www.oneononelms.com/wp-content/uploads/2022/07/image-1-1657307157.png">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="cardMainText">Learning Management System (LMS)</h5>
+                            <p class="cardParaText"> A learning management system (LMS) is a software application that
+                                provides a seamless process for asynchronous and real time virtual training. It's a hub
+                                for course material people can access anytime, anywhere. You can use our LMS to host
+                                your own course material or choose from our library of pre-made courses.</p>
                         </div>
                     </div>
+                </div>
 
+                <div class="item">
+                    <div class="cardMain container py-3" style="width: 18rem;">
+                        <div class="box2Image">
+                            <img
+                                src="https://www.oneononelms.com/wp-content/uploads/2022/07/Business-Person-1659143940.jpg">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="cardMainText">Ready-Made Courses</h5>
+                            <p class="cardParaText"> We provide over 30,000 pre-made courses to help companies develop
+                                the world’s most productive and admired workforces through engaging online learning
+                                programs.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="cardMain container py-3" style="width: 18rem;">
+                        <div class="box2Image">
+                            <img src="https://www.oneononelms.com/wp-content/uploads/2022/07/leonie-1-1657307155.png">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="cardMainText">Classroom In A Box</h5>
+                            <p class="cardParaText"> Classroom In A Box makes it easy for teachers, students, and
+                                administrators to access, curate, manage, and publish content offline. No internet
+                                access needed, just add your content and connect your students' devices to the box. </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="cardMain container py-3" style="width: 18rem;">
+                        <div class="box2Image">
+                            <img
+                                src="https://www.oneononelms.com/wp-content/uploads/2020/04/Ricardo-Allen-surrounded-by-kids-1658367697.jpeg">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="cardMainText">Education Management Information System (EMIS)</h5>
+                            <p class="cardParaText"> We use an EMIS to help governments collect and manage all the data
+                                related to educating their nation's children. This data has been used by both the
+                                Jamaican and Bahamian governments to inform improvements to their education systems.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="cardMain container py-3" style="width: 18rem;">
+                        <div class="box2Image">
+                            <img
+                                src="https://www.oneononelms.com/wp-content/uploads/2022/07/Rectangle-22-1657307124.png">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="cardMainText">Bespoke Content</h5>
+                            <p class="cardParaText"> Our done-for-you content service allows you to get a range of
+                                engaging and personalised course material such as videos, case studies, and slide
+                                presentations. We have a team of experienced content developers who know how to tailor
+                                learning material for Caribbean learners.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Our Features section ended -->
-
-
+    </div> 
 
     <!-- Our Training Offerings section started  -->
-    <section class="traingMain">
+
+     <section class="traingMain mt-5">
         <div class="container">
             <div class="row ">
                 <div class="col-md-6">
@@ -356,27 +377,31 @@
                 </div>
                 <div class="col-md-6 image_parent mt-5">
                     <div class="traingtext">
-                        <h3>Our Training Offerings</h3>
+                        <h3 class="mt-3">Our Training Offerings</h3>
                     </div>
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-6 mt-5">
                             <h4>Sales Team Training</h4>
-                            <p>Improve your sales team training with on-demand courses your team can complete anytime,
+                            <p class="mt-3">Improve your sales team training with on-demand courses your team can
+                                complete anytime,
                                 anywhere.</p>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 mt-5">
                             <h4>Emotional Intelligence Training</h4>
-                            <p>Emotional intelligence accounts for 58% of job performance. Create better leaders and
+                            <p class="mt-3">Emotional intelligence accounts for 58% of job performance. Create better
+                                leaders and
                                 teams by including our emotional intelligence courses in your training program.</p>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 mt-5">
                             <h4>Onboarding Training</h4>
-                            <p>A great onboarding process improves employee retention. Get the training support you need
+                            <p class="mt-3">A great onboarding process improves employee retention. Get the training
+                                support you need
                                 to onboard new hires and equip them with the skills they need to excel.</p>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 mt-5">
                             <h4>Customer Service Training</h4>
-                            <p>Customer service is more than greeting people with a smile. Train your team to manage
+                            <p class="mt-3">Customer service is more than greeting people with a smile. Train your team
+                                to manage
                                 customer queries quickly, provide better internal support to staff, and do what it takes
                                 to provide the best customer experience.</p>
                         </div>
@@ -385,14 +410,17 @@
             </div>
 
         </div>
-    </section>
+    </section> 
+
     <!-- Our Training Offerings section ended  -->
 
+
     <!-- We also offer... section started  -->
+    
     <section class="offerMain">
         <div class="container">
             <div class="row ">
-                <div class="col-md-6 image_parent mt-5">
+                <div class="col-md-6 image_parent mt-5 order-1">
                     <div class="traingtext mt-3">
                         <h3>We also offer...</h3>
                     </div>
@@ -420,7 +448,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-6">
+                <div class="col-md-6 order-0">
                     <div class="queenBackG"></div>
                     <div class="queenImg">
                         <div class="kinghead CentreAuto">
@@ -437,17 +465,13 @@
 
         </div>
     </section>
+
     <!-- We also offer... section ended  -->
 
 
-    <!-- Trusted by... section started  -->
-
-
-    <!-- Trusted by... section ended  -->
-
     <!-- Slider section started  -->
 
-    <div class="container">
+     <div class="container">
         <div class="container-fluid trusted">
             <div class="trusredText">
                 <h1>Trusted by...</h1>
@@ -491,17 +515,14 @@
 
 
         </div>
-    </div>
+    </div> 
 
     <!-- Slider section Ended  -->
 
 
     <!-- Spend less on training section started  -->
 
-
-
-
-    <div class="container-fluid spendMainparent">
+     <div class="container-fluid spendMainparent">
         <div class="row ">
             <div class="col-md-6 SpendParentsMain mt-5">
                 <div class="SpendImage">
@@ -523,44 +544,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
-                <div class="owl-carousel owl-theme spendMainThme " id="owl-carousel">
-                    <div class="itemCardCarosol">
-                        <div class="cardCarosol">
-                            <div class="cardCaro">
-                                <div class="card-bodyForText">
-                                    <h5 class="caroHeading">Spend less on training.</h5>
-                                    <p class="caroParagraph mt-3"> "One On One allowed LFSL to offer remote training and
-                                        testing which significantly reduced LFSL's expenses. We have also reduced
-                                        logistical challenges to coordinate and train staff face to face. There is
-                                        greater convenience and flexibility both for LFSL and agents. Also, One On
-                                        One has helped LFSL start the process of modernization related to business
-                                        process development which gives LFSL greater appeal to current and
-                                        prospective partners."</p>
-                                    <h3 class="mt-5"><strong>Financial Services Limited,</strong>Group Compliance Department
-                                    </h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="itemCardCarosol">
-                        <div class="cardCarosol">
-                            <div class="cardCaro">
-                                <div class="card-bodyForText">
-                                    <h5 class="caroHeading">Get training relevant to YOUR team.</h5>
-                                    <p class="caroParagraph"> "Providing asynchronous digital training was new to
-                                        our team. We were impressed by One-On-One's level of ownership and interest
-                                        in the material. The end product was relevant to the target population and
-                                        engaging. Their customer relations were also exemplary. As a company, we
-                                        felt listened to and we are more than satisfied with the final product."</p>
-                                    <h3><strong>Paulette Smith,</strong> Director of HR and Administration at The
-                                        National Council On Drug Abuse </h3>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="col-md-6 Training">
+              <h3>Get training relevant to YOUR team.</h3>
+              <p> "Providing asynchronous digital training was new to our team. We were impressed by One-On-One's level of ownership and interest in the material. The end product was relevant to the target population and engaging. Their customer relations were also exemplary. As a company, we felt listened to and we are more than satisfied with the final product."</p>
             </div>
             <div class="testMonial ms-auto">
                 <div class="textBlue"></div>
@@ -569,7 +555,7 @@
                 <h4>Testimonials</h4>
             </div>
         </div>
-    </div>
+    </div> 
 
     <!-- Spend less on training section Ended  -->
 
@@ -577,7 +563,7 @@
 
     <!-- Our Impact section started  -->
 
-    <div class="container mt-4">
+     <div class="container mt-4">
         <div class="row">
             <div class="col-12 ourText">
                 <h2>Our Impact
@@ -633,20 +619,14 @@
                 <p>We’ve developed courses and provided content for over 150,000 learners across the Caribbean.</p>
             </div>
         </div>
-
-
-
-
-
-    </div>
-
+    </div> 
 
     <!-- Our Impact section ended  -->
 
 
     <!-- Form section started  -->
 
-    <section class="FormMain">
+     <section class="FormMain">
         <div class="container">
             <div class="row ">
 
@@ -662,7 +642,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 image_parent mt-5">
+                <div class="col-md-6  mt-5">
                     <div class="row">
                         <div class="col-md-6 Formfiled">
                             <form action="#">
@@ -684,7 +664,7 @@
                         </div>
                         <div class="col-md-6 Formfiled">
                             <form action="#">
-                                <label for="phone">Phone(Required)</label><br>
+                                <label class="fontText" for="phone">Phone(Required)</label><br>
                                 <input type="number" id="phone" name="phone"><br><br>
                             </form>
                         </div>
@@ -708,7 +688,6 @@
                                 <p><label for="w3review">How would you like us to help you?</label></p>
                                 <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea>
                                 <br>
-
                             </form>
                         </div>
                         <div class="col-12 captcha">
@@ -719,40 +698,27 @@
                                     <span class="checkbox-text">I'm not a robot</span>
                                 </div>
                             </label>
-
                             <img src="https://www.gstatic.com/recaptcha/api2/logo_48.png">
                             <span class="recaptcha">reCAPTCHA</span>
                             <br>
-                            <a href="#">Privacy</a>
-                            <span class="dash">-</span>
-                            <a href="#">Terms</a>
-
+                            <div class="termsText">
+                                <a href="#">Privacy-Terms</a>
+                                <a href="#"></a>
+                            </div>
                             <div class="triangle"></div>
-
-
                         </div>
                     </div>
                 </div>
             </div>
 
         </div>
-    </section>
+    </section> 
 
     <!-- Form section started  -->
 
-
-    <!-- Slider of 50% width started  -->
-
-
-
-
-
-
-    <!-- Slider of 50% width ended -->
-
     <!-- footer section stated  -->
 
-    <div class="container">
+     <div class="container">
         <div class="row">
             <div class="row footerText">
                 <div class="col-md-4">
@@ -764,10 +730,10 @@
                 </div>
             </div>
             <div class="footerList">
-                <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                    <div class="container-fluid">
+                <nav class=" navbar-expand-lg">
+                    <div class="container">
 
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <div class="" id="navbarSupportedContent">
                             <div class="navbar-nav me-auto mb-2 mb-lg-0">
                                 <div class="nav-item ">
                                     <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -787,8 +753,7 @@
                                 <div class="nav-item">
                                     <a class="nav-link active" aria-current="page" href="#">Contact Us </a>
                                 </div>
-
-                                <div class="nav-item d-flex">
+                                <div class="nav-item d-flex logoIconFooter">
                                     <a class="nav-link active" aria-current="page" href="#"><i
                                             class="bi bi-facebook"></i> </a>
 
@@ -804,62 +769,39 @@
                                     <a class="nav-link active" aria-current="page" href="#"><i
                                             class="bi bi-linkedin"></i> </a>
                                 </div>
-
                             </div>
                         </div>
-
-
-
                     </div>
                 </nav>
             </div>
             <div class="coltainer">
                 <div class="row footetDownText ">
-                    <div class="col-md-4">
+                    <div class="col-md-4 mt-3">
                         <h4>One on One Education © 2023. All Rights Reserved</h4>
                     </div>
-                    <div class="col-md-4 ">
+                    <div class="col-md-4 mt-3">
                         <img src="https://www.oneononelms.com/wp-content/themes/one-on-one/img/logo--horizontal.svg"
                             alt="">
                     </div>
-                    <div class="col-md-2">
+                    <div class="col-md-2 mt-3">
                         <h4>Privacy Policy</h4>
                     </div>
-                    <div class="col-md-2">
+                    <div class="col-md-2 mt-3">
                         <h4>Terms & Conditions</h4>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </div> 
     <!-- footer section ended  -->
 
 
 
 
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script>
+    <!-- <script>
         $('#owl-carousel').owlCarousel({
             rtl: false,
-            loop: true,
-            margin: 10,
-            nav: false,
-            dots: false,
-            arrow: true,
-            responsive: {
-                0: {
-                    items: 1
-                },
-                1000: {
-                    items: 1
-                }
-            }
-        })
-        $('.owl-carousel').owlCarousel({
-            rtl: true,
             loop: true,
             margin: 10,
             nav: true,
@@ -870,11 +812,68 @@
                     items: 1
                 },
                 1000: {
-                    items: 3
+                    items: 1
                 }
             }
         })
+       
+    </script> -->
+
+    <script>$('#owl-carouselNew').owlCarousel({
+        loop: true,
+        autoplay:false,
+        margin: 10,
+        // nav: true,
+        responsive: {
+          0: {
+            items: 1
+          },
+          600: {
+            items: 1
+          },
+          1000: {
+            items: 1
+          }
+        }
+      })
+      </script>
+
+    <script>
+         $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            autoplay:true,
+            responsive: {
+              0: {
+                items: 1
+              },
+              600: {
+                items: 2
+              },
+              1000: {
+                items: 2.3
+              }
+            }
+          })
+
+      
     </script>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+
+
+
 </body>
 
 </html>
